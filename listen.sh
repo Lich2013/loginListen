@@ -26,4 +26,5 @@ do
 			echo $nowlogintimes > $logintimes_file #更新登录次数
 			logintimes=$nowlogintimes #更新登录次数
 	fi
+    sleep 1
 done
